@@ -6,8 +6,10 @@ static void Main(string[] args){
     // New instance of the stack class
     stack stack = new stack();
 
-    // Test case 1
+    // Test case 1  
+    Console.WriteLine("======================");
     Console.WriteLine("====Example Output====");
+    Console.WriteLine("======================");
 
     // Creates the new Stack
     Stack<string> words = stack.newStack();

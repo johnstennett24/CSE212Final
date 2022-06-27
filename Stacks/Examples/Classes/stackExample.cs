@@ -17,7 +17,6 @@ namespace classes{
             return words;
         }
 
-
         // We use Push() to add something to a stack. This adds it to the next
         // position in the stack. If you remember from the reading, stacks use
         // LIFO or last in first out.
@@ -28,7 +27,7 @@ namespace classes{
 
 
         // We then can use Pop() to remove the last item in the Stack
-        public Stack<string> removeWord(Stack<string> words, string word){
+        public Stack<string> removeWord(Stack<string> words){
             words.Pop();
             return words;
         }

@@ -7,17 +7,34 @@ static void Main(string[] args){
     stack stack = new stack();
 
     // Test case 1
-    Console.WriteLine("====Test Case 1====");
+    Console.WriteLine("====Example Output====");
 
     // Creates the new Stack
     Stack<string> words = stack.newStack();
 
     // Adds a word to the stack
-    string word = ("Word");
-    stack.addWord(words, word);
-    Console.WriteLine(words);
+    stack.addWord(words, "This");
+    stack.addWord(words, "is");
+    stack.addWord(words, "a");
+    stack.addWord(words, "stack");
 
+    // Outputs each element in the stack
+    foreach (var elem in words){
+        Console.WriteLine(elem);    // Should output stack
+                                    //               a
+                                    //               is
+                                    //               This
+    } 
 
+    // Removes the word from the stack
+    stack.removeWord(words);
+
+    // Prints each element in the stack
+    foreach (var elem in words){
+        Console.WriteLine(elem);    // Should output a
+                                    //               is
+                                    //               This
+    }
     Console.WriteLine("===================");
     }
 }

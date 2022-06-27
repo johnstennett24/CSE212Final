@@ -1,5 +1,0 @@
-# Inrtoduction: Stacks #
-
-I. Stacks
-    * 
-

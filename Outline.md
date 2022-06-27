@@ -1,7 +1,15 @@
 # C# Datastructures Tutorial#
 
 ## **Outline**:
-    1. Stack
-    2. Linked List
-    3. Binary Search Tree
-
+    I. Stack
+        * Introduction
+        * Effeciency
+        * Example
+    II. Linked List
+        * Introduction
+        * Effeciency
+        * Example
+    III. Binary Search Tree
+        * Introduction
+        * Effeciency
+        * Example

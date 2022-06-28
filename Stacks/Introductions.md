@@ -24,7 +24,7 @@ II. Stack functions
 
         * Push() is also going to be O(1) because it only pushes one element onto the end of the Stack.
 
-![Code]( ../assets/Push.png.png "Code")
+![Code](../assets/Push.png "Code")
     
    3. Contains()
         * We use Contains() to see if something is in the list.

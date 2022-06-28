@@ -17,6 +17,11 @@ II. Pop() and Push()
     1. Pop()
         * We use Pop() to remove the last item that was added to the Stack, remember LIFO, last in first out.
         
-![Code]( /Users/johnstennett/Coding/DataStructures/FinalProject/CSE212Final/assets/Screen-Shot-2022-06-27-at-6.02.10PM.png "Code")
+    ![Code]( /Users/johnstennett/Coding/DataStructures/FinalProject/CSE212Final/assets/Screen-Shot-2022-06-27-at-6.02.10PM.png "Code")
 
+    2. Push()
+        * We use Push() to add something to the end of the list.
+    
+    3. Contains()
+        * We use Contains() to see if something is in the list.
 

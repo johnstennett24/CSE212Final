@@ -17,7 +17,7 @@ II. Stack functions
 
         * Pop() is O(1) because we are only every going to pop the last element in the Stack().
         
-![Code](../assets/Pop.png"Code")
+![Code](../assets/Pop.png "Code")
 
    2. Push()
         * We use Push() to add something to the end of the list.

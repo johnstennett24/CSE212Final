@@ -17,6 +17,6 @@ II. Pop() and Push()
     1. Pop()
         * We use Pop() to remove the last item that was added to the Stack, remember LIFO, last in first out.
         
-![Pop() Code]( /Users/johnstennett/Coding/DataStructures/FinalProject/CSE212Final/assets/Screen Shot 2022-06-27 at 6.02.10 PM.png "Pop() code")
+![Code]( /Users/johnstennett/Coding/DataStructures/FinalProject/CSE212Final/assets/Screen Shot 2022-06-27 at 6.02.10 PM.png "Code")
 
 

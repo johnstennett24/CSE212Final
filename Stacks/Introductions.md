@@ -32,6 +32,15 @@ II. Stack functions
     4. Peek()
         * We use Peek() to return the highest value in the Stack.
 
-    5. Clear()
+![Code]( /Users/johnstennett/Coding/DataStructures/FinalProject/CSE212Final/assets/Screen-Shot-2022-06-27-at-6.02.10PM.png "Code")
+
+    5. Count()
+        * Count returns the number of elements in the Stack.
+
+![Code]( /Users/johnstennett/Coding/DataStructures/FinalProject/CSE212Final/assets/Screen-Shot-2022-06-27-at-6.02.10PM.png "Code")
+
+    6. Clear()
         * Clear removes all the items from the Stack.
+
+![Code]( /Users/johnstennett/Coding/DataStructures/FinalProject/CSE212Final/assets/Screen-Shot-2022-06-27-at-6.02.10PM.png "Code")
 

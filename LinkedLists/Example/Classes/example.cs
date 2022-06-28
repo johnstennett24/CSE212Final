@@ -1,3 +1,5 @@
 Stack<string> words = new Stack<string>();
 
-words.Push();
+string word = "Jim";
+
+words.Push(word);

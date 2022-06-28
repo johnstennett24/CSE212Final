@@ -32,25 +32,3 @@ II. Stack functions
         Stack in order to find what you are looking for.
 
 ![Code](assets/Screen-Shot-2022-06-27-at-6.02.10PM.png "Code")
-
-    4. Peek()
-        * We use Peek() to return the highest value in the Stack.
-
-        * Peek() is also O(n) because it has to search through the whole Stack.
-
-![Code]( /Users/johnstennett/Coding/DataStructures/FinalProject/CSE212Final/assets/Screen-Shot-2022-06-27-at-6.02.10PM.png "Code")
-
-    5. Count()
-        * Count returns the number of elements in the Stack.
-
-        * Count is O(n) because it has to loop through each element
-        and count.
-
-![Code]( /Users/johnstennett/Coding/DataStructures/FinalProject/CSE212Final/assets/Screen-Shot-2022-06-27-at-6.02.10PM.png "Code")
-
-    6. Clear()
-        * Clear removes all the items from the Stack.
-
-        * Clear is O(1)
-
-![Code]( /Users/johnstennett/Coding/DataStructures/FinalProject/CSE212Final/assets/Screen-Shot-2022-06-27-at-6.02.10PM.png "Code")

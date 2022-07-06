@@ -1,7 +1,5 @@
 # Inrtoduction: Stacks #
 
-
-
 ## **Content**:
 
 ![Toy](../assets/istockphoto-873187696-612x612.jpeg "Toy")
@@ -25,10 +23,3 @@ II. Stack functions
         * Push() is also going to be O(1) because it only pushes one element onto the end of the Stack.
 
 ![Code](../assets/Push.png "Code")
-    
-   3. Contains()
-        * We use Contains() to see if something is in the list.
-        * Contains() is O(n) because it has to search through the whole
-        Stack in order to find what you are looking for.
-
-![Code](assets/Screen-Shot-2022-06-27-at-6.02.10PM.png "Code")

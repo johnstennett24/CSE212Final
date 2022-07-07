@@ -36,7 +36,7 @@ II. Linked List functions
    6. RemoveFirst()
         * RemoveFirst() removes the first node found in the list.
 
-![Code](../assets/RemoveFirst.png.png "Code")
+![Code](../assets/RemoveFirst.png "Code")
 
    7. RemoveLast()
         * RemoveLast() removes the last node found in the list.

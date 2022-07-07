@@ -4,22 +4,18 @@
 
 ![Toy](../assets/Linkedlist.png "Toy")
 
-I. Stack of Pancakes
-   * If you were going to make pancakes for your family or friends, you probably would have a plate ready to stack the hot pancakes on as they finished cooking. Each time we put a pancake onto the stack, we call this a push operation. In our culinary example, we might say that each new pancake goes onto the top of the stack. However, since we are going to implement our stacks in Python, we will say that the pancake is actually added to the back. When we take a pancake off to eat, we call this a pop operation. Notice that we push and pop from the back of the stack. Removing from the middle of the stack is not generally allowed (especially at the dinner table). Notice that the pancake at the front is the very first pancake that was cooked. If the pancakes are made faster than they are eaten, then this first pancake would get cold. A LIFO (Last In, First Out) structure like the stack can result in data not being used for a long time. This might not work well for a rotating stock system in a grocery store, but the real benefit of the stack is the ability to remember where we have been.
+I. Linked lists
+   * Imagine you have a chain. Each link of the chain is hooked to the link before it and the link after it. That is pretty much how linked lists are. As you can see from the image above, each 'node' has a pointer to the next 'node' normally, they also have a pointer to the previous node as well. This keeps the list in order and keeps things in check. Linked Lists are very useful because of their performance. Linked lists always operate at O(1) because the number of things you have to change in the list is always the same. All you have to do is change the pointers to the correct node you would like and then you are done!   
 
-II. Stack functions
-   * Luckily in C# the framework includes the Stack class. This means these functions are already in the language that we can just implement. There are also a few other functions that we will talk about in this lesson that will help us to better use C#.
+II. Linked List functions
+   * Luckily just like Stacks we have a class already implemented for Linked Lists in C#. The operations for Linked Lists are AddAfter(), AddBefore(), AddFirst() and AddLast(). Each of these operate at 0(1).
 
-   1. Pop()
-        * We use Pop() to remove the last item that was added to the Stack, remember LIFO, last in first out.
-
-        * Pop() is O(1) because we are only every going to pop the last element in the Stack().
+   1. AddFirst()
+        * We use AddFirst() to add a node to the first position in the list.
         
-![Code](../assets/Pop.png "Code")
+![Code](..assets/AddFirst.png "Code")
 
-   2. Push()
-        * We use Push() to add something to the end of the list.
+   2. AddLast()
+        * We use AddLast() to add something to the end of the list.
 
-        * Push() is also going to be O(1) because it only pushes one element onto the end of the Stack.
-
-![Code](../assets/Push.png "Code")
+![Code](../assets/AddLast.png "Code")

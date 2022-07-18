@@ -54,7 +54,7 @@ namespace classes {
             }
         }
 
-        private void TraverseForward(Node? node, List<int> values)
+        public void TraverseForward(Node? node, List<int> values)
         {
             if (node is not null)
             {
@@ -67,9 +67,14 @@ namespace classes {
         /// <summary>
         /// Iterate backward through the Linked List
         /// </summary>
-        public IEnumerable Reverse() {
-            // TODO Problem 3
-            yield return 0; // replace this line with the correct yield return statement(s)
+        public void Reverse(Node? node, List<int> values){
+            if (node is not null){
+
+                TraverseForward(node.Right, values);
+                values.Add(node.Data);
+                TraverseForward(node.Left, values);
+
+            }
         }
 
         public override string ToString() {

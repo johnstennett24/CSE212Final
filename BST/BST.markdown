@@ -14,20 +14,28 @@ II. <span style = "color:yellow"> Recursion </span>
 
    1. <span style = "color:yellow"> Insert() </span>
         * This will create a new Node and insert it into the tree. This is a recursive method.
+
+        Effeciency: Insert() is O(log n) because it has to recursivley search the tree for the next available spot.
         
 ![Code](../assets/BSTinsert.png "Code")
 
    2. <span style = "color:yellow"> Contains() </span>
         * We use Contains() to see what the value of a Node is.
 
+        Effeciency: Contains() is also O(log n) because it has to recursivley search the tree for the value.
+
 ![Code](../assets/Contains.png "Code")
 
    4. <span style = "color:yellow"> TraverseForward() </span>
         * This will iterate forward through the tree. This is also a recursive method.
 
+        Effeciency: TraverseForward() is O(n) because it searches the left and right sides of the tree.
+
 ![Code](../assets/TraverseForward.png "Code")
 
    5. <span style = "color:yellow"> Reverse() </span>
         * Reverse() goes backwards through the tree.
+
+        Effeciency: This recursivley traverses the tree backwards therefore it is O(n).
 
 ![Code](../assets/Reverse.png "Code")

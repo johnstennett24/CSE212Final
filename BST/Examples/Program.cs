@@ -1,4 +1,6 @@
 ﻿using classes;
+
+namespace program{
 public class program{
     public program(){
 
@@ -57,4 +59,5 @@ public class program{
             Console.WriteLine(i);
         }
     }
+}
 }

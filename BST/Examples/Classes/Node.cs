@@ -1,4 +1,4 @@
-namespace classes{
+namespace example{
 public class Node {
         public int Data {get; set;}
         public Node? Right { get; private set; }

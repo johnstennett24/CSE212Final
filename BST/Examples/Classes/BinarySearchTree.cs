@@ -1,6 +1,6 @@
 using System.Collections;
 
-namespace classes {
+namespace example{
 
     public class BST : IEnumerable<int> {
         private Node? root;

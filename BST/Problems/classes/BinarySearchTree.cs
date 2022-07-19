@@ -77,6 +77,12 @@ namespace problem {
             }
         }
 
+        public void printTree(Node node, List<int> values){
+            TraverseForward(node.Left, values);
+            Console.WriteLine(node.Data);
+            TraverseForward(node.Right, values);
+        }
+
         public override string ToString() {
             return "Bst[" + String.Join(", ", this.Select(i => i.ToString())) + "]";
         }

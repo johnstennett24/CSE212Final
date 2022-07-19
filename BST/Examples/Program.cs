@@ -1,6 +1,4 @@
-﻿using classes;
-
-namespace program{
+﻿namespace example{
 public class program{
     public program(){
 

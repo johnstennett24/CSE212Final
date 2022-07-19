@@ -1,15 +1,17 @@
-# C# Datastructures Tutorial#
+# C# Datastructures Tutorial
 
 ## **Outline**:
-    I. Stack
-        <a href="https://docs.microsoft.com/en-us/azure/virtual-network/ddos-protection-overview">Azure DDOS Protection Standard</a>
-        * Example Code
-        * Problem
-    II. Linked List
-        * Introduction
-        * Example Code
-        * Problem
-    III. Binary Search Tree
-        * Introduction
-        * Example Code
-        * Problem
+Stacks
+- [Introduction](Stacks/IntroductionsStacks.md)
+- [Example Code](Stacks/Examples/Program.cs)
+- [Problem](Stacks/Problem/Program.cs)
+  
+Linked Lists:
+- [Introduction](LinkedLists/IntroductionsLinkedLists.md)
+- [Example Code](LinkedLists/Example/Program.cs)
+- [Problem](LinkedLists/Problem/Program.cs)
+
+Binary Search Trees:
+- [Introduction](BST/BST.markdown)
+- [Example Code](BST/Examples/Program.cs)
+- [Problem](BST/Problems/Program.cs)

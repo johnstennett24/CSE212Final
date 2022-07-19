@@ -2,7 +2,7 @@
 
 ## **Content**:
 
-![Toy](../assets/BSTsearch.png "Toy")
+![Toy](../assets/BSTSearch.png "Toy")
 
 I. <span style = "color:yellow"> Trees </span>
    * Trees are DataStructures that are like Linked Lists, they have nodes and those nodes contain values. The difference is that a Tree has two pointers that goes to two different nodes at once.

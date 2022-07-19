@@ -39,20 +39,5 @@ static void Main(string[] args){
                                     //               is
                                     //               This
     }
-
-    Console.WriteLine("===================");
-
-    // The Peek() function returns the highest value in the list
-    Console.WriteLine(words.Peek());
-
-    Console.WriteLine("===================");
-
-    // The Contains() finction returns whether a value is in
-    // the stack or not.
-
-    
-
-    Console.WriteLine("===================");
-
     }
 }
